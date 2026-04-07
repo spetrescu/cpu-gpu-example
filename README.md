@@ -18,3 +18,8 @@ python cpu_demo_frames.py forward cpu_demo_input cpu_demo_obfuscated \
 python cpu_demo_frames.py reverse cpu_demo_obfuscated cpu_demo_reconstructed \
   --manifest cpu_demo_manifest.json
 ```
+
+8. Verify that the frames were correctly formatted using:
+```
+python cpu_demo_frames.py verify cpu_demo_input cpu_demo_reconstructed
+```
