@@ -3,3 +3,5 @@
 2. Activate using: `source lab-1-gpu/bin/activate`
 3. Install deps: `pip install numpy opencv-python `
 4. Run extract frames command: `python extract_frames.py cpu_video.mp4 cpu_frames`
+
+5. python cpu_demo_frames.py make-demo cpu_frames cpu_demo_input
