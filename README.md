@@ -26,3 +26,9 @@ python cpu_demo_frames.py verify cpu_demo_input cpu_demo_reconstructed
 
 ## GPUs now come in strong as a point of comparison
 1. Install the missing dependency: `pip install torch`
+2. Run the equivalent compression script now on the GPU:
+```
+python gpu_demo_frames.py forward cpu_demo_input cpu_demo_obfuscated_gpu \
+  --manifest cpu_demo_gpu_manifest.json \
+  --levels 64,32,16 --rounds 256 --seed 1337 --frame-permute --batch-size 3
+```
