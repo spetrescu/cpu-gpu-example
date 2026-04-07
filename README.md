@@ -12,3 +12,9 @@ python cpu_demo_frames.py forward cpu_demo_input cpu_demo_obfuscated \
   --manifest cpu_demo_manifest.json \
   --levels 64,32,16 --rounds 6 --seed 1337 --frame-permute
 ```
+
+7. CPU reverse transformations
+```
+python cpu_demo_frames.py reverse cpu_demo_obfuscated cpu_demo_reconstructed \
+  --manifest cpu_demo_manifest.json
+```
