@@ -23,3 +23,6 @@ python cpu_demo_frames.py reverse cpu_demo_obfuscated cpu_demo_reconstructed \
 ```
 python cpu_demo_frames.py verify cpu_demo_input cpu_demo_reconstructed
 ```
+
+## GPUs now come in strong as a point of comparison
+1. Install the missing dependency: `pip install torch`
