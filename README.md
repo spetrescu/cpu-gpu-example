@@ -32,3 +32,8 @@ python gpu_demo_frames.py forward cpu_demo_input cpu_demo_obfuscated_gpu \
   --manifest cpu_demo_gpu_manifest.json \
   --levels 64,32,16 --rounds 256 --seed 1337 --frame-permute --batch-size 3
 ```
+3. Run the reverse of the transformations of a GPU:
+```
+python gpu_demo_frames.py reverse cpu_demo_obfuscated_gpu cpu_demo_reconstructed_gpu \
+  --manifest cpu_demo_gpu_manifest.json --batch-size 3
+```
