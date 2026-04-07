@@ -37,3 +37,4 @@ python gpu_demo_frames.py forward cpu_demo_input cpu_demo_obfuscated_gpu \
 python gpu_demo_frames.py reverse cpu_demo_obfuscated_gpu cpu_demo_reconstructed_gpu \
   --manifest cpu_demo_gpu_manifest.json --batch-size 3
 ```
+4. Verify things are identical: `python gpu_demo_frames.py verify cpu_demo_input cpu_demo_reconstructed_gpu`
