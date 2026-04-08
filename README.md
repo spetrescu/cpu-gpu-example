@@ -22,7 +22,13 @@ The `forward_batch.py` file was used to obfuscate the images -- you do not have 
 
 ## Setup
 
-### 1. Create a virtual environment
+### 1. Clone (or pull) repository
+```
+git clone https://github.com/spetrescu/cpu-gpu-example.git
+```
+or, if you have the repo already, pull with `git pull`.
+
+### 2. Create a virtual environment
 ```
 python3 -m venv venv
 ```
@@ -34,7 +40,7 @@ source venv/bin/activate
 
 ---
 
-### 2. Install dependencies
+### 3. Install dependencies
 ```
 pip install numpy opencv-python torch
 ```
