@@ -67,7 +67,7 @@ As the save time (I/O) dominates the compute time for the transformations, make 
 Specifically, after you have implemented the TODOs, you must make comparsions (by varying the different batch sizes). Here is an example below of running your implementation with a `batch_size` of 2 both on CPU and GPU.
 ```
 python inverse_batch_exercise.py \
-  --input_dir out_forward \
+  --input_dir frames \
   --output_dir out_reconstructed_cpu \
   --recipe recipe.json \
   --device cpu \
@@ -76,7 +76,7 @@ python inverse_batch_exercise.py \
 ```
 ```
 python inverse_batch_exercise.py \
-  --input_dir out_forward \
+  --input_dir frames \
   --output_dir out_reconstructed_cuda \
   --recipe recipe.json \
   --device cuda \
