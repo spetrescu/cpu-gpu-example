@@ -81,7 +81,7 @@ python inverse_batch_exercise.py \
   --recipe recipe.json \
   --device cuda \
   --batch_size 2 \
-  --repeat 1 \
+  --repeat 1
 ```
 
 ---
