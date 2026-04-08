@@ -42,7 +42,7 @@ source venv/bin/activate
 
 ### 3. Install dependencies
 ```
-pip install numpy opencv-python torch
+pip install numpy opencv-python torch Pillow
 ```
 
 ---
