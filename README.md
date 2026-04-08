@@ -1,7 +1,7 @@
 # Assignment 1: CPU vs GPU Image Reconstruction (`09.04` & `14.04.2026`)
 
 ## Overview
-In this assignment, you are given a set of transformed (obfuscated) image frames. Your task is to reconstruct the original frames by implementing the inverse of a reversible image-processing pipeline written in PyTorch.
+In this assignment ([see PDF here](https://github.com/spetrescu/cpu-gpu-example/blob/main/part_1_gpu_assignment.pdf)), you are given a set of transformed (obfuscated) image frames. Your task is to reconstruct the original frames by implementing the inverse of a reversible image-processing pipeline written in PyTorch.
 
 Unlike the first lab, you are not given the original images. Instead, you must recover them by carefully reversing the sequence of operations that were applied during the forward pass.
 
