@@ -84,6 +84,19 @@ python inverse_batch_exercise.py \
   --repeat 1
 ```
 
+If you also want to save the images to disk, make sure you add the `--save_outputs` flag, e.g.:
+```
+```
+python inverse_batch_exercise.py \
+  --input_dir frames \
+  --output_dir out_reconstructed_cuda \
+  --recipe recipe.json \
+  --device cuda \
+  --batch_size 2 \
+  --repeat 1
+```
+```
+
 ---
 After you have implemented the TODOs and successfully (1) completed collecting measurements for at least 5 different batch sizes, (2) created a plot with comparisons between CPU and GPU performance, and (3) created a montage of the video -- you can consider the assignment as passed.
 
